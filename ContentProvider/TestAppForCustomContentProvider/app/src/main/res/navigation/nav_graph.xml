@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment"
+    tools:ignore="ExtraText">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.valeriyu.testappforcustomcontentprovider.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_coursesListFragment"
+            app:destination="@id/coursesListFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentFiles"
+            app:destination="@id/fragmentFiles" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coursesListFragment"
+        android:name="com.valeriyu.testappforcustomcontentprovider.CoursesListFragment"
+        android:label="CoursesListFragment" >
+        <action
+            android:id="@+id/action_coursesListFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.valeriyu.testappforcustomcontentprovider.CourseFragment"
+        android:label="CourseFragment" >
+        <argument
+            android:name="courseId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFiles"
+        android:name="com.valeriyu.testappforcustomcontentprovider.FragmentFiles"
+        android:label="FragmentFiles" />
+</navigation>

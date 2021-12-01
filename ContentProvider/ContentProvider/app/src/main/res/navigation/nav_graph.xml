@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment"
+    tools:ignore="ExtraText">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.valeriyu.contentprovider.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_contactListFragment"
+            app:destination="@id/contactListFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentFiles"
+            app:destination="@id/fragmentFiles" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactListFragment"
+        android:name="com.valeriyu.contentprovider.contacts.ContactListFragment"
+        android:label="ContactListFragment"
+        tools:layout="@layout/fragment_contact_list" >>
+        <action
+            android:id="@+id/action_contactListFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_contactListFragment_to_contactAddFragment"
+            app:destination="@id/contactAddFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.valeriyu.contentprovider.contacts.ContactFragment"
+        android:label="ContacraddFragment"
+        tools:layout="@layout/fragment_contact_add">
+        <argument
+            android:name="contactId"
+            app:argType="long" />
+        <argument
+            android:name="contactName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactAddFragment"
+        android:name="com.valeriyu.contentprovider.contacts.ContactAddFragment"
+        android:label="ContactAddFragment" />
+    <fragment
+        android:id="@+id/fragmentFiles"
+        android:name="com.valeriyu.contentprovider.FragmentFiles"
+        android:label="FragmentFiles" />
+
+
+</navigation>

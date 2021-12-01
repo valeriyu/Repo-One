@@ -1,0 +1,339 @@
+Введите количество воинов в командах:
+ (лучше четное количество)
+или Q (q) для выхода.
+10
+(commandAHealth = 1233, numWarriors = 10, commandBHealth = 1198, numWarriors = 10)
+Раунд: 1. Начикает команда A.
+(commandAHealth = 833, numWarriors = 7, commandBHealth = 948, numWarriors = 8)
+Раунд: 2. Начикает команда B.
+(commandAHealth = 733, numWarriors = 6, commandBHealth = 848, numWarriors = 8)
+Раунд: 3. Начикает команда A.
+(commandAHealth = 733, numWarriors = 6, commandBHealth = 768, numWarriors = 8)
+Раунд: 4. Начикает команда B.
+(commandAHealth = 653, numWarriors = 6, commandBHealth = 568, numWarriors = 6)
+Раунд: 5. Начикает команда A.
+(commandAHealth = 653, numWarriors = 6, commandBHealth = 488, numWarriors = 6)
+Раунд: 6. Начикает команда B.
+(commandAHealth = 573, numWarriors = 6, commandBHealth = 312, numWarriors = 4)
+Раунд: 7. Начикает команда A.
+(commandAHealth = 493, numWarriors = 5, commandBHealth = 252, numWarriors = 4)
+Раунд: 8. Начикает команда B.
+(commandAHealth = 393, numWarriors = 4, commandBHealth = 232, numWarriors = 3)
+Раунд: 9. Начикает команда A.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 152, numWarriors = 3)
+Раунд: 10. Начикает команда B.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 152, numWarriors = 3)
+Раунд: 11. Начикает команда A.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 152, numWarriors = 3)
+Раунд: 12. Начикает команда B.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 152, numWarriors = 3)
+Раунд: 13. Начикает команда A.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 126, numWarriors = 2)
+Раунд: 14. Начикает команда B.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 126, numWarriors = 2)
+Раунд: 15. Начикает команда A.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 126, numWarriors = 2)
+Раунд: 16. Начикает команда B.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 126, numWarriors = 2)
+Раунд: 17. Начикает команда A.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 126, numWarriors = 2)
+Раунд: 18. Начикает команда B.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 126, numWarriors = 2)
+Раунд: 19. Начикает команда A.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 106, numWarriors = 1)
+Раунд: 20. Начикает команда B.
+(commandAHealth = 313, numWarriors = 4, commandBHealth = 106, numWarriors = 1)
+Раунд: 21. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 22. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 23. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 24. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 25. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 26. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 27. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 46, numWarriors = 1)
+Раунд: 28. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 16, numWarriors = 1)
+Раунд: 29. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 16, numWarriors = 1)
+Раунд: 30. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 16, numWarriors = 1)
+Раунд: 31. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 16, numWarriors = 1)
+Раунд: 32. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 16, numWarriors = 1)
+Раунд: 33. Начикает команда A.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 16, numWarriors = 1)
+Раунд: 34. Начикает команда B.
+(commandAHealth = 293, numWarriors = 3, commandBHealth = 0, numWarriors = 0)
+Команда A одержала победу !!!
+
+
+
+Введите количество воинов в командах:
+ (лучше четное количество)
+или Q (q) для выхода.
+10
+(commandAHealth = 1166, numWarriors = 10, commandBHealth = 1232, numWarriors = 10)
+Раунд: 1. Начикает команда A.
+WarrA [0] [100] атакует WarrB [0] [166]
+totalDamage = > 60 FireType => Single(1), CAT
+WarrA [0] [100]  WarrB [0] [106]
+
+WarrB [0] [106] атакует WarrA [0] [100]
+totalDamage = > 100 FireType => Single(1), DOG
+WarrA [0] [106]  WarrB [0] [0]
+
+WarrB [1] [100] атакует WarrA [1] [100]
+totalDamage = > 0 FireType => Single(1), MOUSE
+WarrB [1] [100]  WarrA [1] [100]
+WarrA [0] [100] атакует WarrB [0] [100]
+totalDamage = > 0 FireType => Single(1), MOUSE
+WarrA [0] [100]  WarrB [0] [100]
+
+WarrA [2] [200] атакует WarrB [2] [100]
+totalDamage = > 100 FireType => Single(1), MOUSE
+WarrA [2] [200]  WarrB [2] [0]
+
+WarrA [4] [200] атакует WarrB [4] [100]
+totalDamage = > 200 FireType => Bursts(5), MOUSE
+WarrA [4] [200]  WarrB [4] [0]
+
+WarrA [6] [100] атакует WarrB [6] [100]
+totalDamage = > 30 FireType => Bursts(16), CAT
+WarrA [6] [100]  WarrB [6] [70]
+
+WarrB [6] [70] атакует WarrA [6] [100]
+totalDamage = > 0 FireType => Single(1), MOUSE
+WarrA [6] [70]  WarrB [6] [100]
+
+WarrB [7] [166] атакует WarrA [7] [200]
+totalDamage = > 60 FireType => Bursts(16), DOG
+WarrB [7] [166]  WarrA [7] [140]
+WarrA [6] [140] атакует WarrB [6] [166]
+totalDamage = > 100 FireType => Bursts(23), DOG
+WarrA [6] [40]  WarrB [6] [166]
+
+(commandAHealth = 906, numWarriors = 9, commandBHealth = 942, numWarriors = 8)
+Раунд: 2. Начикает команда B.
+WarrB [0] [70] атакует WarrA [0] [100]
+totalDamage = > 0 FireType => Single(1), MOUSE
+WarrB [0] [70]  WarrA [0] [100]
+
+WarrA [0] [100] атакует WarrB [0] [70]
+totalDamage = > 30 FireType => Bursts(6), CAT
+WarrB [0] [100]  WarrA [0] [40]
+
+WarrB [2] [166] атакует WarrA [2] [166]
+totalDamage = > 50 FireType => Bursts(8), BEAR
+WarrB [2] [166]  WarrA [2] [116]
+
+WarrA [2] [116] атакует WarrB [2] [166]
+totalDamage = > 100 FireType => Bursts(8), DOG
+WarrB [2] [116]  WarrA [2] [66]
+
+WarrB [8] [106] атакует WarrA [8] [100]
+totalDamage = > 100 FireType => Bursts(7), DOG
+WarrB [8] [106]  WarrA [8] [0]
+
+WarrA [9] [116] атакует WarrB [9] [100]
+totalDamage = > 50 FireType => Single(1), DOG
+WarrA [9] [116]  WarrB [9] [50]
+WarrB [8] [50] атакует WarrA [8] [116]
+totalDamage = > 0 FireType => Single(1), DOG
+WarrB [8] [50]  WarrA [8] [116]
+
+(commandAHealth = 756, numWarriors = 8, commandBHealth = 762, numWarriors = 8)
+Раунд: 3. Начикает команда A.
+WarrA [0] [100] атакует WarrB [0] [40]
+totalDamage = > 100 FireType => Bursts(10), MOUSE
+WarrA [0] [100]  WarrB [0] [0]
+
+WarrB [1] [106] атакует WarrA [1] [100]
+totalDamage = > 0 FireType => Single(1), MOUSE
+WarrB [1] [106]  WarrA [1] [100]
+WarrA [0] [100] атакует WarrB [0] [106]
+totalDamage = > 100 FireType => Bursts(19), CAT
+WarrA [0] [0]  WarrB [0] [106]
+
+WarrA [2] [100] атакует WarrB [2] [200]
+totalDamage = > 80 FireType => Bursts(21), BEAR
+WarrA [2] [100]  WarrB [2] [120]
+
+WarrB [2] [120] атакует WarrA [2] [100]
+totalDamage = > 80 FireType => Bursts(28), DOG
+WarrA [2] [120]  WarrB [2] [20]
+
+WarrA [4] [100] атакует WarrB [4] [66]
+totalDamage = > 0 FireType => Single(1), CAT
+WarrA [4] [100]  WarrB [4] [66]
+
+WarrB [4] [66] атакует WarrA [4] [100]
+totalDamage = > 50 FireType => Bursts(26), CAT
+WarrA [4] [66]  WarrB [4] [50]
+
+WarrB [5] [106] атакует WarrA [5] [100]
+totalDamage = > 60 FireType => Single(1), CAT
+WarrB [5] [106]  WarrA [5] [40]
+WarrA [4] [40] атакует WarrB [4] [106]
+totalDamage = > 0 FireType => Single(1), CAT
+WarrA [4] [40]  WarrB [4] [106]
+
+WarrA [8] [100] атакует WarrB [8] [66]
+totalDamage = > 30 FireType => Single(1), CAT
+WarrA [8] [100]  WarrB [8] [36]
+
+WarrB [8] [36] атакует WarrA [8] [100]
+totalDamage = > 0 FireType => Single(1), CAT
+WarrA [8] [36]  WarrB [8] [100]
+
+(commandAHealth = 466, numWarriors = 7, commandBHealth = 612, numWarriors = 7)
+Раунд: 4. Начикает команда B.
+WarrB [4] [100] атакует WarrA [4] [40]
+totalDamage = > 0 FireType => Single(1), CAT
+WarrB [4] [100]  WarrA [4] [40]
+
+WarrA [4] [40] атакует WarrB [4] [100]
+totalDamage = > 60 FireType => Bursts(1), CAT
+WarrB [4] [40]  WarrA [4] [40]
+
+WarrB [8] [36] атакует WarrA [8] [20]
+totalDamage = > 60 FireType => Bursts(12), BEAR
+WarrB [8] [36]  WarrA [8] [0]
+
+WarrA [9] [50] атакует WarrB [9] [120]
+totalDamage = > 100 FireType => Bursts(19), DOG
+WarrA [9] [50]  WarrB [9] [20]
+WarrB [8] [20] атакует WarrA [8] [50]
+totalDamage = > 50 FireType => Bursts(8), DOG
+WarrB [8] [0]  WarrA [8] [50]
+
+(commandAHealth = 446, numWarriors = 6, commandBHealth = 432, numWarriors = 6)
+Раунд: 5. Начикает команда A.
+WarrA [0] [40] атакует WarrB [0] [50]
+totalDamage = > 60 FireType => Bursts(8), BEAR
+WarrA [0] [40]  WarrB [0] [0]
+
+WarrA [2] [50] атакует WarrB [2] [36]
+totalDamage = > 0 FireType => Single(1), DOG
+WarrA [2] [50]  WarrB [2] [36]
+
+WarrB [2] [36] атакует WarrA [2] [50]
+totalDamage = > 80 FireType => Bursts(15), BEAR
+WarrA [2] [36]  WarrB [2] [0]
+
+WarrA [4] [100] атакует WarrB [4] [100]
+totalDamage = > 160 FireType => Bursts(7), BEAR
+WarrA [4] [100]  WarrB [4] [0]
+
+WarrA [6] [116] атакует WarrB [6] [36]
+totalDamage = > 0 FireType => Single(1), BEAR
+WarrA [6] [116]  WarrB [6] [36]
+
+WarrB [6] [36] атакует WarrA [6] [116]
+totalDamage = > 160 FireType => Single(1), BEAR
+WarrA [6] [36]  WarrB [6] [0]
+
+(commandAHealth = 280, numWarriors = 4, commandBHealth = 282, numWarriors = 4)
+Раунд: 6. Начикает команда B.
+WarrB [8] [100] атакует WarrA [8] [100]
+totalDamage = > 0 FireType => Single(1), BEAR
+WarrB [8] [100]  WarrA [8] [100]
+
+WarrA [8] [100] атакует WarrB [8] [100]
+totalDamage = > 0 FireType => Single(1), BEAR
+WarrB [8] [100]  WarrA [8] [100]
+
+(commandAHealth = 280, numWarriors = 4, commandBHealth = 282, numWarriors = 4)
+Раунд: 7. Начикает команда A.
+WarrA [2] [40] атакует WarrB [2] [40]
+totalDamage = > 0 FireType => Single(1), BEAR
+WarrA [2] [40]  WarrB [2] [40]
+
+WarrB [2] [40] атакует WarrA [2] [40]
+totalDamage = > 80 FireType => Bursts(4), BEAR
+WarrA [2] [40]  WarrB [2] [0]
+
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 282, numWarriors = 4)
+Раунд: 8. Начикает команда B.
+WarrB [0] [100] атакует WarrA [0] [40]
+totalDamage = > 0 FireType => Single(1), BEAR
+WarrB [0] [100]  WarrA [0] [40]
+
+WarrA [0] [40] атакует WarrB [0] [100]
+totalDamage = > 160 FireType => Bursts(2), BEAR
+WarrB [0] [40]  WarrA [0] [0]
+
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 9. Начикает команда A.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 10. Начикает команда B.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 11. Начикает команда A.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 12. Начикает команда B.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 13. Начикает команда A.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 14. Начикает команда B.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 15. Начикает команда A.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 16. Начикает команда B.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 17. Начикает команда A.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 182, numWarriors = 3)
+Раунд: 18. Начикает команда B.
+WarrB [6] [106] атакует WarrA [6] [40]
+totalDamage = > 0 FireType => Single(1), BEAR
+WarrB [6] [106]  WarrA [6] [40]
+
+WarrA [6] [40] атакует WarrB [6] [106]
+totalDamage = > 80 FireType => Single(1), BEAR
+WarrB [6] [40]  WarrA [6] [26]
+
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 102, numWarriors = 3)
+Раунд: 19. Начикает команда A.
+WarrA [6] [100] атакует WarrB [6] [26]
+totalDamage = > 80 FireType => Bursts(19), BEAR
+WarrA [6] [100]  WarrB [6] [0]
+
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 76, numWarriors = 2)
+Раунд: 20. Начикает команда B.
+(commandAHealth = 240, numWarriors = 3, commandBHealth = 76, numWarriors = 2)
+Раунд: 21. Начикает команда A.
+WarrA [8] [40] атакует WarrB [8] [40]
+totalDamage = > 160 FireType => Bursts(3), MOUSE
+WarrA [8] [40]  WarrB [8] [0]
+
+WarrB [9] [36] атакует WarrA [9] [100]
+totalDamage = > 80 FireType => Bursts(7), BEAR
+WarrB [9] [36]  WarrA [9] [20]
+WarrA [8] [20] атакует WarrB [8] [36]
+WarrA [8] [20]  WarrB [8] [36]
+
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 36, numWarriors = 1)
+Раунд: 22. Начикает команда B.
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 36, numWarriors = 1)
+Раунд: 23. Начикает команда A.
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 36, numWarriors = 1)
+Раунд: 24. Начикает команда B.
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 36, numWarriors = 1)
+Раунд: 25. Начикает команда A.
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 36, numWarriors = 1)
+Раунд: 26. Начикает команда B.
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 36, numWarriors = 1)
+Раунд: 27. Начикает команда A.
+WarrA [6] [20] атакует WarrB [6] [36]
+totalDamage = > 100 FireType => Bursts(4), MOUSE
+WarrA [6] [20]  WarrB [6] [0]
+
+(commandAHealth = 160, numWarriors = 3, commandBHealth = 0, numWarriors = 0)
+Команда A одержала победу !!!
+
+Process finished with exit code 0

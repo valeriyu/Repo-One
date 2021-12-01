@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewModelAndNavigation</string>
+
+    <string name="msg_empy_list">Список пуст - нажмите на кнопку для добавления элементов.</string>
+    <string name="text_is_prof">Профессиональный</string>
+    <string name="detail_info">Детальная информация:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

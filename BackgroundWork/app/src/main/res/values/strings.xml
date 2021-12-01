@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BackgroundWork</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="notification_channel_name">Player controls</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+</resources>

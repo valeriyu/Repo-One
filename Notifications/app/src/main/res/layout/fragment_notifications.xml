@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/createNotificationButtonWithReplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create notification with Reply to action" />
+
+    <Button
+        android:id="@+id/createMessageNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create message notification" />
+
+    <Button
+        android:id="@+id/createNewsNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create news notification" />
+
+    <Button
+        android:id="@+id/createNotificationGroupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create notification group" />
+
+    <Button
+        android:id="@+id/createProgressNotificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create progress notification" />
+
+</LinearLayout>

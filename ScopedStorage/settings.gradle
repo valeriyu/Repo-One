@@ -1,0 +1,2 @@
+rootProject.name = "ScopedStorage"
+include ':app'

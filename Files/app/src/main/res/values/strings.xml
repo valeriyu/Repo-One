@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Files</string>
+    <string name="search_input_hint">Адрес файла</string>
+    <string name="search_button">Загрузить</string>
+</resources>

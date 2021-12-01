@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScopedStorage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movies_list_grant_permission">Получить разрешение</string>
+    <string name="movie_add_button">Сохранить</string>
+    <string name="movie_add_url_hint">URL</string>
+    <string name="movie_add_name_hint">Имя файла</string>
+    <string name="movie_add_title" />
+    <string name="movie_add_error">Ошибка при добавлении видео</string>
+    <string name="file_add_error">Ошибка при добавлении файла</string>
+</resources>

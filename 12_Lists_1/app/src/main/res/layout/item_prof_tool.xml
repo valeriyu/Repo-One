@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="?attr/selectableItemBackground"
+    android:nestedScrollingEnabled="true"
+    android:padding="4dp">
+
+
+    <TextView
+        android:id="@+id/profTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_is_prof"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameTextView"
+        app:layout_constraintEnd_toStartOf="@id/pictImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Профессиональный" />
+
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/profTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Вес 1.5 кг." />
+
+    <ImageView
+        android:id="@+id/pictImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightTextView"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        app:layout_constraintEnd_toStartOf="@id/pictImageView"
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profTextView"
+        tools:text="Xxxxxxxxx xxxxxx xxxxxx" />
+
+    <TextView
+        android:lines="6"
+        app:layout_constraintEnd_toStartOf="@id/pictImageView"
+        android:id="@+id/descriptionTextView"
+        android:layout_width="0dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pictImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        tools:text="Xxxxxxxxx xxxxxx xxxxxx" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

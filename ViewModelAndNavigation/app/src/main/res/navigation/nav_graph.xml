@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toolsListFragment">
+    <fragment
+        android:id="@+id/toolsListFragment"
+        android:name="com.valeriyu.viewmodelandnavigation.ToolsListFragment"
+        android:label="ToolsListFragment"
+        tools:layout="@layout/fragment_tools_list">
+        <action
+            android:id="@+id/action_toolsListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.valeriyu.viewmodelandnavigation.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

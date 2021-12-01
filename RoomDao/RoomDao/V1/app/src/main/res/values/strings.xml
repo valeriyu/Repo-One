@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RoomDao</string>
+
+    <string name="user_list_title">Список пользователей</string>
+    <string name="msg_list_title">Список сообщений</string>
+    <string name="user_add_title">Добавить пользователя</string>
+    <string name="msg_add_title">Добавить сообщение</string>
+
+    <string name="user_add_hint_phone"> * Телефон</string>
+    <string name="user_add_hint_first_name">Имя</string>
+    <string name="user_add_hint_last_name">Пароль</string>
+
+    <string name="user_add_hint_email">Email</string>
+    <string name="user_add_hint_avatar">Аватар</string>
+    <string name="user_add_button_save">Save</string>
+    <string name="user_add_error_incorrect_format">Incorrect form</string>
+    <string name="user_add_error_default">User save error</string>
+    <string name="user_add_hint_password">Пароль</string>
+
+
+    <style name="AppBarStyle" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="iconTint">@android:color/white</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+    </style>
+
+    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@android:color/white</item>
+    </style>
+</resources>

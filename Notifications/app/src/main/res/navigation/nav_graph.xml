@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.valeriyu.notifications.ui.MenuFragment"
+        android:label="MenuFragment">
+        <action
+            android:id="@+id/action_menuFragment_to_firebaseFragment"
+            app:destination="@id/firebaseFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_synchronizationFragment"
+            app:destination="@id/synchronizationFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/firebaseFragment"
+        android:name="com.valeriyu.notifications.ui.FirebaseFragment"
+        android:label="FirebaseFragment" />
+    <fragment
+        android:id="@+id/synchronizationFragment"
+        android:name="com.valeriyu.notifications.SynchronizationFragment"
+        android:label="SynchronizationFragment" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.valeriyu.notifications.ui.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moviesListFragment">
+
+    <fragment
+        android:id="@+id/moviesListFragment"
+        android:name="com.valeriyu.scopedstorage.MoviesListFragment"
+        android:label="MoviesListFragment">
+        <action
+            android:id="@+id/action_moviesListFragment_to_addMovieFragment"
+            app:destination="@id/addMovieFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/addMovieFragment"
+        android:name="com.valeriyu.scopedstorage.AddMovieFragment"
+        android:label="AddMovieFragment" />
+</navigation>

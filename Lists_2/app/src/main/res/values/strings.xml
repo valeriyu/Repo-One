@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lists_2</string>
+    <string name="msg_empy_list">Список пуст - нажмите на кнопку для добавления элементов.</string>
+    <string name="text_is_prof">Профессиональный</string>
+
+    <string name="btn_1_text">Вертикальный Пагинация</string>
+    <string name="btn_2_text">Горизонтальный Анимация</string>
+    <string name="btn_3_text">Таблица Разделители</string>
+    <string name="btn_4_text">Сетка Отступы</string>
+
+</resources>

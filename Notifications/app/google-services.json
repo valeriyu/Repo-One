@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082778733306",
+    "project_id": "notifications-acdf1",
+    "storage_bucket": "notifications-acdf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082778733306:android:f3a80d06303cdbec385743",
+        "android_client_info": {
+          "package_name": "com.valeriyu.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082778733306-6aneanoear7is84gj83nvl1h54sfdfl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3jDtJc7YcBSmMgdbrpUrxLTNe6kZ24M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082778733306-6aneanoear7is84gj83nvl1h54sfdfl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
